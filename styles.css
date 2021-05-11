@@ -19,6 +19,8 @@
   }
   .navbar{
     background-color:white !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   div {
       transition-delay: 1s;
