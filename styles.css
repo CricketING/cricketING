@@ -20,10 +20,6 @@
   .navbar{
     background-color:white !important;
   }
-  .full_screen{
-      width: 100%; 
-      overflow: hidden;
-  }
   div {
       transition-delay: 1s;
   }
@@ -31,3 +27,34 @@
       max-height: 95vh;
       min-width: auto;
   }
+  .red_bg{
+    background-color: #ff1616 ;
+    width: 100vw;
+    height: 90vh;
+}
+  .white_bg{
+    background-color: white ;
+    width: 100vw;
+    height: 90vh;
+}
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .red_text{
+        color: #ff1616;
+    }
+    .white_text {
+        color: white;
+    }
+    .bold {
+        font-weight: 800;
+        font-size: 40px;
+    }
+    .about_text{
+        width: 80vw;
+        font-size: 35px;
+    }
+
