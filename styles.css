@@ -156,3 +156,28 @@
 #carouselExampleIndicators{
   height:55vh;
 }
+
+.faq_container{
+  text-align: center;
+  padding:5% 9%;
+  font-family: sans-serif;
+  height:max-content;
+  color:white;
+}
+.faq_head{
+  margin-top: 2%;
+  margin-bottom:4%;
+  font-weight: bold;
+}
+.faq_element{
+  padding:2% 4%;
+}
+.faq_question{
+  padding:1% 2%;
+  font-weight: 600;
+}
+.faq_answer{
+  padding:1%;
+  line-height:1.4;
+  font-size:1.1rem;
+}
