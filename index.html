@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cricketING</title>
+    <script src="https://kit.fontawesome.com/c1d96901e3.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
   </head>
 <link rel="stylesheet" href="./styles.css">
 <body>
-    <nav style="position: fixed; width: 100%;" class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <nav style="position: fixed; width: 100%;" class="navbar navbar-expand-lg sticky-top navbar-light">
   <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="./images/logo2.png" style="vertical-align:inherit !important;" 
         width="130px" height="33px" /></a>
@@ -27,10 +27,10 @@
           <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="#scoring_system">Scoring System</a>
+          <a class="nav-link" href="#FAQ">FAQS</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="#FAQ">FAQS</a>
+          <a class="nav-link" href="#scoring_system">Scoring System</a>
         </li>
         <li class="nav-item ">
           <a class="nav-link" href="#contact">Contact Us</a>
@@ -48,30 +48,121 @@
       <img src="./images/img2.png" class="d-block w-100" alt="...">
     </div>
   </div>
-  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button> -->
 </div>
-<div class="white_bg about" id="about">
+<div class="white_bg row abt" id="about">
     <h1 class="red_text bold">About</h1>
-    <h4 class ="red_text about_text">Cricketing is a platform where the users can buy stocks of cricket players.
+    <div class="abt_element col-sm-6 col-md-3">
+        <i class="fas fa-chart-line fa-5x"></i>
+        <h5 class="abt_subhead">Invest in Players.</h5>
+        <p class="abt_subtxt">Buy Stocks of your favorite players before every matchday</p>
+    </div>
+    <div class="abt_element col-sm-6 col-md-3">
+      <i class="fas fa-coins fa-5x"></i>
+        <h5 class="abt_subhead">Earn Bonuses.</h5>
+        <p class="abt_subtxt">Earn bonuses based on your player's performance</p>
+    </div>
+    <div class="abt_element col-sm-6 col-md-3">
+      <i class="fas fa-gift fa-5x"></i>
+        <h5 class="abt_subhead">Receive Rewards.</h5>
+        <p class="abt_subtxt">Earn cashbacks and rewards based on bonuses earned</p>
+    </div>
+
+    <!-- <h4 class ="red_text about_text">Cricketing is a platform where the users can buy stocks of cricket players.
         The stocks of players are bought using coins given to them during signup.
         The stocks are valid for one day after which the user will get back their original coin total.
         They will receive dividends for their stocks based on the players performance during a match.
         They can use the dividends to claim vouchers for cashbacks and discounts.
         The top earners for each week will be given cash bonuses
-    </h4>
+    </h4> -->
 </div>
-<div class="red_bg" id="scoring_system">
+<div class="red_bg" id="FAQ">
 
 </div>
-<div class="white_bg" id="FAQ">
-
+<div class="white_bg" id="scoring_system">
+  <h1>Scoring Explained</h1>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item scores active">
+        <!-- <img src="./images/batting.PNG" class="d-block w-100" alt="..."> -->
+          <h1>Batting Score</h1>
+          <div class="d-flex justify-content-center">
+          <table>
+            <tr>
+              <td>Run</td>
+              <td>+1</td>
+            </tr>
+            <tr>
+              <td>Boundary Bonus</td>
+              <td>+1</td>
+            </tr>
+            <tr>
+              <td>Six Bonus</td>
+              <td>+2</td>
+            </tr>
+            <tr>
+              <td>30 Run Bonus</td>
+              <td>+4</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="carousel-item scores">
+        <h1>Batting Score</h1>
+        <table>
+          <tr>
+            <td>Run</td>
+            <td>+1</td>
+          </tr>
+          <tr>
+            <td>Boundary Bonus</td>
+            <td>+1</td>
+          </tr>
+          <tr>
+            <td>Six Bonus</td>
+            <td>+2</td>
+          </tr>
+          <tr>
+            <td>30 Run Bonus</td>
+            <td>+4</td>
+          </tr>
+        </table>
+      </div>
+      <div class="carousel-item scores">
+        <h1>Batting Score</h1>
+        <table>
+          <tr>
+            <td>Run</td>
+            <td>+1</td>
+          </tr>
+          <tr>
+            <td>Boundary Bonus</td>
+            <td>+1</td>
+          </tr>
+          <tr>
+            <td>Six Bonus</td>
+            <td>+2</td>
+          </tr>
+          <tr>
+            <td>30 Run Bonus</td>
+            <td>+4</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 </div>
 <div class="red_bg" id="contact">
 
