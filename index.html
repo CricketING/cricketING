@@ -250,8 +250,14 @@
     </button>
   </div>
 </div>
-<div class="red_bg" id="contact">
-
+<div class="red_bg d-flex flex-column align-items-center" id="contact">
+  <h1 class="contact_head">We'd love to hear from you</h1>
+  <p class="contact_text"> If you think can help us with anything or have any questions about features,
+    scoring system,rewards or anything else,our team is ready to answer all your questions.</p>
+    <div class="d-flex contact_btn align-items-center justify-content-evenly">
+      <button type="button" class="btn butn btn-light" onclick="mail()">Get In Touch</button>
+      <button type="button" class="btn butn btn-light" onclick="pro()">Basic Prototype</button>
+    </div>
 </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -260,4 +266,12 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" 
 integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" 
 crossorigin="anonymous"></script>
+ <script>
+  function mail(){
+    window.open("mailto:cricketingapp@gmail.com")
+  }
+  function pro(){
+    window.open("https://www.figma.com/proto/Vv91NFS6Hzh8TVib5IOIJ4/Android-prototype?node-id=3%3A4&scaling=scale-down&page-id=210%3A5537")
+  }
+</script>
 </html>
