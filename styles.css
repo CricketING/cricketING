@@ -181,3 +181,32 @@
   line-height:1.4;
   font-size:1.1rem;
 }
+
+.contact_head{
+  padding:5% 7% 0 7%;
+  color:white;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.contact_text{
+  padding:1% 15%;
+  color:white;
+  font-size:1.2rem;
+  line-height: 1.4;
+  text-align: center;
+}
+.contact_btn{
+  margin:2%;
+  width:30%;
+}
+.butn{
+  color:#ff1616;
+}
+.butn:hover{
+  color:white;
+  background-color:#ff1616;
+  border:1px solid white;
+}
+#contact{
+  height:max-content;
+}
