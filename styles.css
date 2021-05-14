@@ -62,6 +62,7 @@
     .abt{
         text-align: center;
         padding: 7% 12%;
+        height:max-content;
     }
 
     .fas{
