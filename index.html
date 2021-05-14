@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
   </head>
-<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="./styles/styles.css">
 <body>
     <nav style="position: fixed; width: 100%;" class="navbar navbar-expand-lg sticky-top navbar-light">
   <div class="container-fluid">
@@ -96,18 +95,14 @@
     <p class="faq_answer">No, The players will be divided into 3 categories (Tier 1,2 and 3) 
       based on their past perfonances and experience</p>
   </div>
+ 
 </div>
 <div class="white_bg" id="scoring_system">
   <h1 class="scoring_heading">Scoring System</h1>
   <h5 class="scoring_heading" style="color:#ff1616;">Total Score = Batting Score + Bowling Score +  Fielding Score</h5>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-keyboard="false">
-    <!-- <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div> -->
-    <div class="carousel-inner">
-      <div class="carousel-item scores active">
+    <div class="carousel-inner carousel-inner-score">
+      <div class="carousel-item scores active" id="bas">
         <!-- <img src="./images/batting.PNG" class="d-block w-100" alt="..."> -->
           <h1 class="scoring_subhead">Batting Score</h1>
           <div class="d-flex justify-content-center">
@@ -157,7 +152,7 @@
           </table>
         </div>
       </div>
-      <div class="carousel-item scores">
+      <div class="carousel-item scores" id="bos">
         <h1 class="scoring_subhead">Bowling Score</h1>
         <div class="d-flex justify-content-center">
           <table class="styled_table">
@@ -206,7 +201,7 @@
           </table>
         </div>
       </div>
-      <div class="carousel-item scores">
+      <div class="carousel-item scores" id="fs">
         <h1 class="scoring_subhead">Fielding Score</h1>
         <div class="d-flex justify-content-center">
           <table class="styled_table">
@@ -216,10 +211,6 @@
                 <td>Score</td>
               </tr>
             </thead>
-            <tr>
-              <td>Run</td>
-              <td>+1</td>
-            </tr>
             <tr>
               <td>Catch</td>
               <td>+4</td>
@@ -266,7 +257,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" 
 integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" 
 crossorigin="anonymous"></script>
- <script>
+<script>
   function mail(){
     window.open("mailto:cricketingapp@gmail.com")
   }
