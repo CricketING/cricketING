@@ -209,6 +209,9 @@
 #contact{
   height:max-content;
 }
+.row{
+  --bs-gutter-x:0 !important;
+}
 @media screen and (max-width:1050px){
   #scoring_system{
     height:50vh;
